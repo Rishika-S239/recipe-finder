@@ -1,0 +1,143 @@
+/* .rd{
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 16px;
+    line-height: 1.6;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color:#ffe0d3;
+    border-radius: 12px;
+}
+.back-link{
+    display: inline-block;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.back-link:hover{
+    text-decoration: underline;
+}
+.rt{
+    margin: 8px 0 12px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.ri{
+    width: 80%;
+    height: auto;
+    max-width: 560px;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.rm{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #444;
+}
+.rsec{
+    margin-top: 24px;
+}
+.ring{
+    padding-left:20px;
+    display: inline;
+    font-weight: 100;
+    list-style-type: disc;
+}
+.rinst{
+    margin-top: 8px;
+} */
+ /* Container */
+.rd {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #0077cc;
+  transition: color 0.2s;
+}
+.back-link:hover {
+  color: #005fa3;
+}
+
+/* Title */
+.rt {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Recipe image */
+.ri {
+  display: block;
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Meta info */
+.rm {
+  font-size: 15px;
+  margin: 10px 0 25px;
+  padding: 12px;
+  background: #f7f9fc;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+.rm strong {
+  margin-right: 6px;
+  color: #444;
+}
+
+/* Section heading */
+.rsec {
+  font-size: 22px;
+  margin: 25px 0 15px;
+  font-weight: 600;
+  color: #333;
+  border-left: 5px solid #0077cc;
+  padding-left: 10px;
+}
+
+/* Ingredients list */
+.ring {
+  margin: 0 0 25px;
+  padding-left: 20px;
+}
+.ring li {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background: #f0f4f9;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Instructions */
+.rinst {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.rinst ol {
+  padding-left: 20px;
+}
+.rinst li {
+  margin-bottom: 10px;
+}
